@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Moonfern Cafe | Place an Order</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Barlow+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    body {
+      background: #021525;
+    }
+</style>
+
+<body>
+
+<div class="sidebar">
+      <a href=index.html><h1>Moonfern Café</h1></a>
+      <a href=menu.html>Menu</a> <br><br>
+      <a href=order.html>Place an Order</a> <br><br>
+      <a href=honest.html>Our Message</a>
+</div>
+
+    <form onsubmit="takeOrder()">
+        <h3>Coffee:</h3>
+        <input type="checkbox" name="coffee" value="Pyxis"> <p1>Pyxis</p1> <br>
+        <input type="checkbox" name="coffee" value="Fornax"> <p1>Fornax</p1> <br>
+        <input type="checkbox" name="coffee" value="Lynx"> <p1>Lynx</p1> <br>
+        <input type="checkbox" name="coffee" value="none"> <p1>None</p1>
+        <h3>Tea:</h3><br>
+        <input type="checkbox" name="tea" value="Jasmine Lush"> <p1>Jasmine Lush</p1> <br>
+        <input type="checkbox" name="tea" value="Black Dahlia"> <p1>Black Dahlia</p1> <br>
+        <input type="checkbox" name="tea" value="Sapphire Flower"> <p1>Sapphire Flower</p1> <br>
+        <input type="checkbox" name="tea" value="none"> <p1>None</p1> <br><br><br><br>
+        <input id="enter" type="submit" value="Enter Order">
+        <br><br><br><br>
+    </form>
+
+    <br><br>
+    <div class="pdf">
+        <iframe src="https://pdfs.semanticscholar.org/070b/9288a0cae50062d4ff6dce2e66615c7f01cf.pdf">
+    </div>
+
+        <script src="script.js"></script>
+  
+  </body>
+
+</html>
