@@ -1,0 +1,173 @@
+html { 
+  font-family: 'Barlow Condensed';
+  margin-left: 265px;
+}
+
+h2 {
+  color: #76b6c4;
+  font-size: 100px;
+  text-align: center;
+  height: 60px;
+}
+p {
+  color: #def3f6;
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+  box-shadow: 10px 10px 5px #7fcdff;
+  border: 2px solid #7fcdff;
+  margin-left: 225px;
+  margin-right: auto; 
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  background-color:#7fcdff;
+}
+
+a {
+  text-decoration: none;
+  color: #7fcdff;
+  font-size: 30px;
+}
+a:hover {
+  font-style: italic;
+}
+
+.sidebar {
+  font-family: 'Barlow Condensed';
+  height: 100%;
+  width: 265px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1da2d8;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: left;
+}
+.sidebar h1 {
+  text-decoration: none;
+  text-align: center;
+  color: #76b6c4;
+  font-weight: bold;
+  font-size: 40px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #def3f6;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.sidebar a:hover {
+  font-style: italic;
+}
+
+table {
+  padding-left: 10px;
+  border-spacing: 5px;
+}
+
+th, td {
+  text-align: center;
+}
+
+th {
+  padding-bottom: 10px;
+  color: #76b6c4;
+  font-size: 50px;
+}
+
+td {
+  color: #76b6c4;
+  font-size: 30px; 
+}
+
+iframe {
+  padding-left: 350px;
+}
+
+.pdf iframe {
+  border: none;
+  width: 600px;
+  height: 200px;
+}
+
+form {
+  padding-left: 100px;
+}
+
+h3 {
+  color: #76b6c4;
+  font-size: 80px;
+  height: 10px;
+}
+p1 {
+  color: #def3f6;
+  font-size: 50px;
+}
+
+input[type=submit] {
+  border-radius: 5px;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  font-family: 'Barlow Condensed';
+  background-color: #def3f6;
+  font-weight: bold;
+  color: #76b6c4;
+}
+
+.letter {
+  padding-left: 35px;
+}
+.letter p {
+  text-align: left;
+  font-size: 25px;
+  color:#def3f6;
+}
+
+h1 {
+  padding-left: 10px;
+  color: #def3f6;
+  height: 50px;
+  font-size: 40px;
+}
+
+.bulletlist {
+  font-size: 30px;
+  padding-left: 30px;
+  color: #7fcdff;
+}
+
+.bulletlist ul {
+    list-style-type: circle;
+}
+
+.DList {
+  font-size: 75px;
+  padding-left: 30px;
+}
+
+dl {
+  padding-left: 100px;
+}
+
+dt {
+    font-weight: bold;
+    color: #76b6c4;
+    height: 80px;
+    font-size: 50px;
+  }
+dd {
+  font-size: 30px;
+    margin: 0;
+    padding: 0 0 0.5em 0;
+    color: #def3f6;
+  }
