@@ -4,10 +4,6 @@
 
 #### 8/22/2019
 
---Description of Assignment (this can be copied from classroom)
---Partners (if applicable)
---Pertinent Info (-environment, reflections, lessons learned, favorite part, challenges, etc.) This does not need to be lengthy.
+ > There are a couple things for you to learn in this unit. The primary lesson is, of course, how to use HTML and CSS and how they work together.  The secondary lesson is how to learn on your own using resources on the web.  I have identified a reliable, thorough tutorial which includes information as well as practice opportunities.  Even if you have used HTML and CSS before, this includes explanations of new characteristics of HTML5 as well as reasonings you may not have previously learned.
 
-Adv. Project Website
-
-Website in review of HTML and CSS with specific elements and requirements
+Development in **Repl.it**
